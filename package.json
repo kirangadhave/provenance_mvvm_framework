@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description":
     "Provenance Graph integrated with MVVM framework written in typescript.",
-  "main": "dist/index.js",
+  "main": "dist/lib/index.js",
   "scripts": {
-    "test": "mocha dist/index.test.js -w"
+    "test": "mocha dist -w",
+    "build": "tsc -w"
   },
   "repository": {
     "type": "git",
