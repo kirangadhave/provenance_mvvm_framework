@@ -1,0 +1,24 @@
+{
+  "name": "provenance_mvvm_framework",
+  "version": "1.0.0",
+  "description": "Provenance Graph integrated with MVVM framework written in typescript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirangadhave/provenance_mvvm_framework.git"
+  },
+  "keywords": [
+    "provenance",
+    "mvvm",
+    "typescript"
+  ],
+  "author": "Kiran B. Gadhave <kirangadhave2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirangadhave/provenance_mvvm_framework/issues"
+  },
+  "homepage": "https://github.com/kirangadhave/provenance_mvvm_framework#readme"
+}
