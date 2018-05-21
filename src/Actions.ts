@@ -41,3 +41,7 @@ export type ActionFunctionWithThis = {
   func: ActionFunction;
   thisArg: any;
 };
+
+export function isReversibleAction(action: Action): action is ReversibleAction {
+  return "undo" in action;
+}

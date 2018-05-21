@@ -1,3 +1,4 @@
+import { StateNode } from "./Node";
 import { Action } from "./Actions";
 
 /**
@@ -7,7 +8,7 @@ export type NodeIdentifier = string;
 
 export type NodeMetadata = {
   createdBy: string;
-  createdOn: string;
+  createdOn: number;
   [key: string]: any;
 };
 
@@ -36,3 +37,7 @@ export type StateNode = RootNode & {
 };
 
 export type ProvenanceNode = RootNode | StateNode;
+
+export function isStateNode(node: ProvenanceNode): node is StateNode {
+  return "parent" in node;
+}
