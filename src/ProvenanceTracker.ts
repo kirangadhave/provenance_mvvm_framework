@@ -7,7 +7,6 @@ import { generateUUID, generateTimeStamp } from "./Utils";
 
 export class ProvenanceTracker implements IProvenanceTracker {
   registry: IActionFunctionRegistry;
-
   private graph: IProvenanceGraph;
   private username: string;
 
